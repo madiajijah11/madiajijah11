@@ -1,6 +1,6 @@
-<a href="#">
+<!-- <a href="#">
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=madiajijah11&show_icons=true&theme=dark&hide_title=true" />
-</a>
+</a> -->
 
 <h1 align="center">Hi 👋, I'm Dian Rahmadani</h1>
 <h3 align="center">A passionate full stack developer from Indonesia</h3>
