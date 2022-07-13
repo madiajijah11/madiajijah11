@@ -15,7 +15,7 @@
 
 - 🌱 I’m currently learning **Javascript**
 
-- 😄 Pronouns [He/Him](He/Him)
+- 😄 Pronouns **He/Him**
 
 - 📫 How to reach me **madiajijah7@gmail.com**
 
