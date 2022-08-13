@@ -11,7 +11,7 @@
 
 <p align="left"> <a href="https://twitter.com/rappwalk" target="blank"><img src="https://img.shields.io/twitter/follow/rappwalk?logo=twitter&style=for-the-badge" alt="rappwalk" /></a> </p>
 
-- 🔭 I’m currently working on **Company**
+<!-- - 🔭 I’m currently working on **Company** -->
 
 - 🌱 I’m currently learning **Javascript**
 
