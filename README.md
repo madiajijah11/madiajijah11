@@ -13,7 +13,7 @@
 
 <!-- - 🔭 I’m currently working on **Company** -->
 
-- 🌱 I’m currently learning **Typescript**
+- 🌱 I’m currently learning **Python**
 
 - 😄 Pronouns **He/Him**
 
