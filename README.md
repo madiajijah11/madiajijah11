@@ -7,8 +7,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=madiajijah11&label=Profile%20views&color=0e75b6&style=flat" alt="madiajijah11" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=madiajijah11&theme=darkhub&no-frame=true&no-bg=true" alt="madiajijah11" /></a> </p>
-
 <p align="left"> <a href="https://twitter.com/madiajijah11" target="blank"><img src="https://img.shields.io/twitter/follow/GenzoDR?logo=twitter&style=for-the-badge" alt="GenzoDR" /></a> </p>
 
 <!-- - 🔭 I’m currently working on **Company** -->
@@ -22,20 +20,9 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/madiajijah11" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="madiajijah11" height="30" width="40" /></a>
-<!-- <a href="https://linkedin.com/in/dian-rhmdni" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dian-rhmdni" height="30" width="40" /></a> -->
-<!-- <a href="https://fb.com/nyanyaw.meong" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="nyanyaw.meong" height="30" width="40" /></a> -->
-<!-- <a href="https://instagram.com/dian.rhmdni" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dian.rhmdni" height="30" width="40" /></a> -->
 <a href="https://www.leetcode.com/madiajijah11" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="madiajijah11" height="30" width="40" /></a>
 <a href="https://discord.gg/Dian#5704" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Dian#5704" height="30" width="40" /></a>
 </p>
-
-<!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=madiajijah11&show_icons=true&locale=en&layout=compact" alt="madiajijah11" /></p> -->
-<p><img align="left" src="https://github-readme-stats-madiajijah11s-projects.vercel.app/api/top-langs?username=madiajijah11&show_icons=true&locale=en&layout=compact" alt="madiajijah11" /></p>
-
-<!-- <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=madiajijah11&show_icons=true&locale=en" alt="madiajijah11" /></p> -->
-<p>&nbsp;<img align="center" src="https://github-readme-stats-madiajijah11s-projects.vercel.app/api?username=madiajijah11&show_icons=true&locale=en" alt="madiajijah11" /></p>
-
-<!-- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=madiajijah11&" alt="madiajijah11" /></p> -->
 
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
 
