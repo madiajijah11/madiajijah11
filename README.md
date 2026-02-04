@@ -29,10 +29,13 @@
 <a href="https://discord.gg/Dian#5704" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Dian#5704" height="30" width="40" /></a>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=madiajijah11&show_icons=true&locale=en&layout=compact" alt="madiajijah11" /></p>
+<!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=madiajijah11&show_icons=true&locale=en&layout=compact" alt="madiajijah11" /></p> -->
+<p><img align="left" src="https://github-readme-stats-phi-seven-74.vercel.app/api/top-langs?username=madiajijah11&show_icons=true&locale=en&layout=compact" alt="madiajijah11" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=madiajijah11&show_icons=true&locale=en" alt="madiajijah11" /></p>
+<!-- <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=madiajijah11&show_icons=true&locale=en" alt="madiajijah11" /></p> -->
+<p>&nbsp;<img align="center" src="https://github-readme-stats-phi-seven-74.vercel.app/api?username=madiajijah11&show_icons=true&locale=en" alt="madiajijah11" /></p>
 
+<!-- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=madiajijah11&" alt="madiajijah11" /></p> -->
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=madiajijah11&" alt="madiajijah11" /></p>
 
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
