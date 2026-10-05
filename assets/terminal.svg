@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" width="100%" height="320">
+  <defs>
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#0a101f" />
+      <stop offset="100%" stop-color="#040714" />
+    </linearGradient>
+
+    <linearGradient id="neon-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" />
+      <stop offset="35%" stop-color="#00f0ff" />
+      <stop offset="70%" stop-color="#7000ff" />
+      <stop offset="100%" stop-color="#00ff88" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <pattern id="matrix-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#00ff88" opacity="0.1" />
+    </pattern>
+
+    <clipPath id="window-clip">
+      <rect x="5" y="5" width="810" height="310" rx="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 0.85s infinite;
+      text-shadow: 0 0 8px #00ff88;
+    }
+
+    @keyframes fadeInLine {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .line-1 { animation: fadeInLine 0.5s ease-out 0.2s both; }
+    .line-2 { animation: fadeInLine 0.5s ease-out 0.8s both; }
+    .line-3 { animation: fadeInLine 0.5s ease-out 1.4s both; }
+    .line-4 { animation: fadeInLine 0.5s ease-out 2.0s both; }
+    .line-5 { animation: fadeInLine 0.5s ease-out 2.6s both; }
+    .line-6 { animation: fadeInLine 0.5s ease-out 3.2s both; }
+
+    @keyframes pulseBorder {
+      0%, 100% { stroke-opacity: 0.5; }
+      50% { stroke-opacity: 1; filter: drop-shadow(0 0 6px #00ff88); }
+    }
+    .border-glow {
+      animation: pulseBorder 4s infinite ease-in-out;
+    }
+
+    @keyframes matrixDrop {
+      0% { transform: translateY(-160px); opacity: 0; }
+      30% { opacity: 0.25; }
+      80% { opacity: 0.25; }
+      100% { transform: translateY(340px); opacity: 0; }
+    }
+    .stream-1 { animation: matrixDrop 5s linear infinite; }
+    .stream-2 { animation: matrixDrop 7s linear 1.5s infinite; }
+    .stream-3 { animation: matrixDrop 6s linear 3s infinite; }
+    .stream-4 { animation: matrixDrop 5.5s linear 0.8s infinite; }
+
+    .terminal-title {
+      font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #7ee787;
+      letter-spacing: 0.5px;
+    }
+    .cmd-text {
+      font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace;
+      font-size: 13.5px;
+      fill: #e6edf3;
+    }
+    .prompt-user { fill: #f43f5e; font-weight: bold; }
+    .prompt-path { fill: #a855f7; font-weight: bold; }
+    .neon-green { fill: #00ff88; font-weight: bold; text-shadow: 0 0 5px rgba(0,255,136,0.5); }
+    .neon-cyan { fill: #00f0ff; text-shadow: 0 0 5px rgba(0,240,255,0.4); }
+    .dim-gray { fill: #8b949e; }
+    .stat-badge { font-family: monospace; font-size: 11px; fill: #00ff88; font-weight: bold; }
+  </style>
+
+  <g clip-path="url(#window-clip)">
+    <!-- Base Background & Matrix grid -->
+    <rect x="5" y="5" width="810" height="310" rx="14" fill="url(#cyber-grad)" />
+    <rect x="5" y="5" width="810" height="310" rx="14" fill="url(#matrix-dots)" />
+
+    <!-- Matrix Code Rain Streams (Subtle Background) -->
+    <g font-family="monospace" font-size="11" fill="#00ff88">
+      <text x="680" y="0" class="stream-1">01011001 0x7F 10100110 0xBC 1101</text>
+      <text x="730" y="0" class="stream-2">0xEF89 10010 0x1A 01101011 0x04</text>
+      <text x="630" y="0" class="stream-3">W3B3_SYS 0x99 10101010 0x4B 0101</text>
+      <text x="580" y="0" class="stream-4">INIT_DAEMON 0x22 101000 0xFF 11</text>
+    </g>
+
+    <!-- Scanline Subtle Shader -->
+    <line x1="5" y1="0" x2="815" y2="0" stroke="#00f0ff" stroke-width="2" opacity="0.1">
+      <animate attributeName="y1" values="5;315;5" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="5;315;5" dur="7s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Titlebar -->
+    <rect x="5" y="5" width="810" height="42" fill="#090f1d" opacity="0.95" />
+    <line x1="5" y1="47" x2="815" y2="47" stroke="#00ff88" stroke-opacity="0.25" stroke-width="1" />
+
+    <!-- Window Dots -->
+    <circle cx="28" cy="26" r="6" fill="#ff5f56" />
+    <circle cx="48" cy="26" r="6" fill="#ffbd2e" />
+    <circle cx="68" cy="26" r="6" fill="#27c93f" />
+
+    <!-- Title Bar Text & Live Status Badge -->
+    <text x="96" y="30" class="terminal-title">CYBER_SHELL // dian@madiajijah11: [kernel 6.1-zen]</text>
+    <rect x="670" y="16" width="130" height="22" rx="11" fill="#00ff88" fill-opacity="0.1" stroke="#00ff88" stroke-width="0.8" />
+    <circle cx="685" cy="27" r="3.5" fill="#00ff88" class="cursor" />
+    <text x="696" y="31" class="stat-badge">LIVE // CONNECTED</text>
+
+    <!-- Terminal Content Area -->
+    <!-- Line 1: Command 1 -->
+    <g class="cmd-text line-1">
+      <text x="30" y="80">
+        <tspan class="prompt-user">dian@madiajijah11</tspan><tspan class="dim-gray">:</tspan><tspan class="prompt-path">~</tspan><tspan fill="#e6edf3">$ </tspan>
+        <tspan fill="#38bdf8" font-weight="600">whoami --verbose --spec</tspan>
+      </text>
+    </g>
+
+    <!-- Line 2: Output 1 -->
+    <g class="cmd-text line-2">
+      <text x="42" y="108">
+        <tspan class="dim-gray">↳ IDENTITY :</tspan>
+        <tspan class="neon-green"> Dian Rahmadani </tspan>
+        <tspan class="dim-gray">[Handle:</tspan><tspan class="neon-cyan"> @madiajijah11 </tspan><tspan class="dim-gray">| Pronouns: He/Him]</tspan>
+      </text>
+      <text x="42" y="132">
+        <tspan class="dim-gray">↳ ROLES    :</tspan>
+        <tspan class="neon-cyan"> Full Stack Developer </tspan>
+        <tspan class="dim-gray">⟡</tspan>
+        <tspan class="neon-green"> Web3 &amp; Smart Contract Explorer</tspan>
+      </text>
+    </g>
+
+    <!-- Line 3: Command 2 -->
+    <g class="cmd-text line-3">
+      <text x="30" y="168">
+        <tspan class="prompt-user">dian@madiajijah11</tspan><tspan class="dim-gray">:</tspan><tspan class="prompt-path">~</tspan><tspan fill="#e6edf3">$ </tspan>
+        <tspan fill="#38bdf8" font-weight="600">netstat -geo --listen</tspan>
+      </text>
+    </g>
+
+    <!-- Line 4: Output 2 -->
+    <g class="cmd-text line-4">
+      <text x="42" y="196">
+        <tspan class="dim-gray">↳ ORIGIN   :</tspan>
+        <tspan fill="#e6edf3"> Indonesia 🇮🇩 </tspan>
+        <tspan class="dim-gray">[Coordinates: 0.7893° S, 113.9213° E]</tspan>
+      </text>
+      <text x="42" y="220">
+        <tspan class="dim-gray">↳ CODESPACE:</tspan>
+        <tspan fill="#e6edf3"> TypeScript, Rust, Go, Python, Solidity, Web Architecture</tspan>
+      </text>
+    </g>
+
+    <!-- Line 5: Command 3 -->
+    <g class="cmd-text line-5">
+      <text x="30" y="256">
+        <tspan class="prompt-user">dian@madiajijah11</tspan><tspan class="dim-gray">:</tspan><tspan class="prompt-path">~</tspan><tspan fill="#e6edf3">$ </tspan>
+        <tspan fill="#38bdf8" font-weight="600">cat /etc/mission.txt</tspan>
+      </text>
+    </g>
+
+    <!-- Line 6: Output 3 with Real Inline Animated Cursor -->
+    <g class="cmd-text line-6">
+      <text x="42" y="284">
+        <tspan class="dim-gray">↳ STATUS   :</tspan>
+        <tspan class="neon-green"> Architecting resilient code &amp; breaking decentralized frontiers</tspan>
+        <tspan fill="#00ff88" class="cursor"> █</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Outer Neon Border with Subtle Glow -->
+  <rect class="border-glow" x="5" y="5" width="810" height="310" rx="14" fill="none" stroke="url(#neon-border)" stroke-width="1.8" filter="url(#glow)" />
+</svg>
