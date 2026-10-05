@@ -100,18 +100,30 @@
 
 <img src="./assets/cyber-line.svg" alt="Cyber Divider" width="100%" />
 
-### ☕ `TRANSMISSION // SUPPORT & SPONSOR`
+### ⚡ `DECENTRALIZED_VAULT // CRYPTO TRANSMISSION`
 
 <div align="center">
-  <p>If you find my projects intriguing or valuable, consider fueling the terminal:</p>
-  <a href="https://paypal.me/rappwalk">
-    <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://ko-fi.com/genzodr">
-    <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-Fi" />
-  </a>
-  <br/><br/>
+  <p>Fuel open-source engineering &amp; decentralized experiments:</p>
+  <p>
+    <img src="https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="BTC" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white" alt="ETH" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" alt="SOL" />
+    &nbsp;
+    <img src="https://img.shields.io/badge/Kaspa-70C7BA?style=for-the-badge&logo=kaspa&logoColor=white" alt="KAS" />
+  </p>
+</div>
+
+```yaml
+BTC : bc1q3aej7x9wlvl54syt4qm48xcdn6zqa64cm6dwj6
+ETH : 0xae69f5bcf7762bb5fe34d3832fd7d1954054674b
+SOL : 6Et2XmHSdAD4QBR9Apdt9AVeJ77ktr1piV49q7RD4SLk
+KAS : kaspa:qypgw7xw60yvxv5pcjncdv4f30wanju0g64hw3204wreayajt3025qgde344ycq
+```
+
+<div align="center">
+  <br/>
   <a href="https://visitcount.itsvg.in">
     <img src="https://komarev.com/ghpvc/?username=madiajijah11&color=00ff88&style=flat-square&label=SYS_VISITS" alt="Visitor Counter" />
   </a>
