@@ -84,18 +84,10 @@
     <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=madiajijah11&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
   </a>
 </div>
-
-<div align="center">
-  <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=madiajijah11&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
-</div>
-
 <br/>
-
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
   <br/><br/>
-  <img src="https://github-contributor-stats.vercel.app/api?username=madiajijah11&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top Contributed Repos" />
 </div>
 
 <img src="./assets/cyber-line.svg" alt="Cyber Divider" width="100%" />
